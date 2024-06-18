@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div class="air-algerie">
+      <section class="air-algerie-inner">
+        <div class="frame-parent">
+          <header class="frame-wrapper">
+            <div class="frame-group">
+              <div class="logo-air-algerie-wrapper">
+                <img
+                  class="logo-air-algerie-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/logo-air-algerie@2x.png"
+                />
+              </div>
+
+              <div class="log-in-wrapper">
+                <span class="login_button">
+                <img
+                class="outline-sign-in"
+                loading="lazy"
+                alt=""
+                src="./public/outline--sign-in.svg"/>
+                <b class="log-in"><a href="#">Login</a></b>
+                </span>
+              </div>
+
+              <div class="topmenu" id="myTopmenu">
+                <a href="#" class="active">Home</a>
+                <a href="#">Discover</a>
+                <a href="#">Plan your trip</a>
+                <a href="#">Travel experience</a>
+                <a href="#">Air Algerie Plus</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>             
+            </div>
+          </header>
+
+          <div id="id01" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span  title="Close Modal">&times;</span>
+                <img src="public/avatar2.png" alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="container">
+                <label for="uname"><b class="titulo_form">Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b class="titulo_form">Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> <span class="titulo_form">Remember me</span>
+                </label>
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button"  class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#" class="btn_text">password?</a></span>
+              </div>
+            </form>
+          </div>
+          
+          <div class="frame-parent1">
+            <div class="frame-wrapper1">
+              <div class="frame-parent2">
+                <div class="more-than-just-a-trip-parent">
+                  <h1 class="more-than-just">More than just a trip</h1>
+                  <h3 class="air-algrie-is">
+                    Air Algérie is committed to a continuous improvement of
+                    provided services quality.
+                  </h3>
+                </div>
+                <div class="features">
+                  <div class="rectangle-parent">
+                    <div class="frame-inner"></div>
+                    <div class="m-passengers-parent">
+                      <b class="m-passengers">
+                        <span>+7M </span>
+                        <span class="passengers">Passengers</span>
+                      </b>
+                      <div class="rectangle-div"></div>
+                    </div>
+                    <div class="more-than-5">
+                      More than 5 million passengers transported in 2022.
+                    </div>
+                  </div>
+                  <div class="rectangle-group">
+                    <div class="frame-child1"></div>
+                    <div class="destinations-parent">
+                      <b class="destinations">
+                        <span>+44 </span>
+                        <span class="destinations1">Destinations</span>
+                      </b>
+                      <div class="frame-child2"></div>
+                    </div>
+                    <div class="four-continents-with">
+                      Four continents, with 44 international routes and 35
+                      domestic ones.
+                    </div>
+                  </div>
+                  <div class="rectangle-container">
+                    <div class="frame-child3"></div>
+                    <div class="unit-parent">
+                      <b class="unit">
+                        <span>+56 </span>
+                        <span class="unit1">Unit</span>
+                      </b>
+                      <div class="frame-child4"></div>
+                    </div>
+                    <div class="a-fleet-of">
+                      A fleet of 56 aircraft meeting international safety
+                      standards.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-bg-parent">
+
+              <div class="search-flights">
+                <div class="departure-airport-parent">
+                  <div class="departure-airport">Departure airport</div>
+                  <div class="algiers-alg-parent">
+                    <h2 class="algiers-alg">Algiers (ALG)</h2>
+                    <div class="houari-boumediene-airport">
+                      Houari Boumediene Airport - ALGERIA
+                    </div>
+                  </div>
+                  <img
+                    class="switch-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/switch.svg"
+                  />
+                </div>
+                <div class="arrival-airport">Arrival airport</div>
+                <div class="select-country-city-parent">
+                  <h2 class="select-country">Select Country / City</h2>
+                  <div class="airport">Airport</div>
+                  <div class="line-div"></div>
+                </div>
+                <div class="details-wrapper">
+                  <div class="details">
+                    <div class="frame-parent3">
+                      <div class="outline-calendar-parent">
+                        <img
+                          class="outline-calendar"
+                          alt=""
+                          src="./public/outline--calendar.svg"
+                        />
+
+                        <div class="select-departure-date-wrapper">
+                          <div class="select-departure-date">
+                            Select departure date
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        class="outline-arrow-down"
+                        alt=""
+                        src="./public/outline--arrow--down.svg"
+                      />
+                    </div>
+                    <div class="frame-parent4">
+                      <div class="outline-wallet-parent">
+                        <img
+                          class="outline-wallet"
+                          alt=""
+                          src="./public/outline--wallet.svg"
+                        />
+
+                        <div class="select-class-wrapper">
+                          <div class="select-class">Select class</div>
+                        </div>
+                      </div>
+                      <img
+                        class="outline-arrow-down1"
+                        alt=""
+                        src="./public/outline--arrow--down.svg"
+                      />
+                    </div>
+                    <div class="frame-parent5">
+                      <div class="outline-user-parent">
+                        <img
+                          class="outline-user"
+                          alt=""
+                          src="./public/outline--user.svg"
+                        />
+
+                        <div class="passengers-wrapper">
+                          <div class="passengers1">01 Passengers</div>
+                        </div>
+                      </div>
+                      <img
+                        class="outline-arrow-down2"
+                        alt=""
+                        src="./public/outline--arrow--down.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="search-flights-inner">
+                  <div class="frame-child5"></div>
+                </div>
+                <button class="primary-button">
+                  <div class="search-flights1">Search Flights</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="air-algerie-child">
+        <div class="frame-parent6">
+          <div class="special-offers-parent">
+            <h1 class="special-offers">Special offers</h1>
+
+          </div>
+          <div class="formulario-busca">
+            <h2>Buscar Voos</h2>
+            <form id="formulario-busca-voo">
+              <div class="grupo-formulario">
+                <label for="aeroporto-partida">Aeroporto de Partida:</label>
+                <input type="text" id="aeroporto-partida" name="aeroporto-partida" required>
+              </div>
+              <div class="grupo-formulario">
+                <label for="aeroporto-chegada">Aeroporto de Chegada:</label>
+                <input type="text" id="aeroporto-chegada" name="aeroporto-chegada" required>
+              </div>
+              <div class="grupo-formulario">
+                <label for="data-partida">Data de Partida:</label>
+                <input type="date" id="data-partida" name="data-partida" required>
+              </div>
+              <button type="submit" class="botao-busca">Buscar Voos</button>
+            </form>
+          </div>
+
+          <div id="resultados-busca" class="resultados-busca"></div>
+
+<div class="gallery">
+
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="public/img_woods_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="public/img_5terre_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="public/img_mountains_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="public/img_lights_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="public/img_nature_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="public/img_snow_wide.jpg" style="width:100%">
+  </div>
+
+ 
+<div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+<div class="next" onclick="plusSlides(1)">&#10095;</div>
+
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+ 
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="public/img_woods.jpg" style="width:100%"  alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="public/img_5terre.jpg" style="width:100%"  alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="public/img_mountains.jpg" style="width:100%"  alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="public/img_lights.jpg" style="width:100%"  alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="public/img_nature.jpg" style="width:100%"  alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor"  src="public/img_snow.jpg" style="width:100%"  alt="Snowy Mountains">
+    </div>
+  </div>
+
+ 
+
+          <div class="card-large-parent">
+            <div class="card-large">
+              <img
+                class="photo-icon"
+                loading="lazy"
+                alt=""
+                src="./public/photo@2x.png"
+              />
+
+              <div class="card-large-inner">
+                <div class="frame-parent7">
+                  <div class="frame-wrapper2">
+                    <div class="saudi-arabia-parent">
+                      <div class="saudi-arabia">SAUDI ARABIA</div>
+                      <div class="omrah-wrapper">
+                        <h1 class="omrah">Omrah</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="book-economy-class-container">
+                    <p class="book-economy-class">
+                      Book economy class - return until 15 Jan 23
+                    </p>
+                    <p class="from-dzd-64000">
+                      <span>from </span>
+                      <b class="dzd-64000">DZD 64.000</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dubai-parent">
+              <div class="dubai">
+                <div class="dubai-child"></div>
+                <img class="photo-icon1" alt="" src="./public/photo-1@2x.png" />
+
+                <div class="dubai-inner">
+                  <div class="frame-parent8">
+                    <div class="united-arab-emirates-parent">
+                      <div class="united-arab-emirates">
+                        UNITED ARAB EMIRATES
+                      </div>
+                      <h1 class="dubai1">Dubai</h1>
+                    </div>
+                    <div class="book-economy-class-container1">
+                      <p class="book-economy-class1">
+                        Book economy class - return until 15 Jan 23
+                      </p>
+                      <p class="from-dzd-82000">
+                        <span>from </span>
+                        <b class="dzd-82000">DZD 82.000</b>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="paris">
+                <div class="paris-child"></div>
+                <img class="photo-icon2" alt="" src="./public/photo-2@2x.png" />
+
+                <div class="paris-inner">
+                  <div class="frame-parent9">
+                    <div class="france-parent">
+                      <div class="france">FRANCE</div>
+                      <h1 class="paris1">Paris</h1>
+                    </div>
+                    <div class="book-economy-class-container2">
+                      <p class="book-economy-class2">
+                        Book economy class - return until 15 Jan 23
+                      </p>
+                      <p class="from-dzd-30790">
+                        <span>from </span>
+                        <b class="dzd-30790">DZD 30.790</b>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bangkok">
+                <div class="bangkok-child"></div>
+                <img class="photo-icon3" alt="" src="./public/photo-3@2x.png" />
+
+                <div class="bangkok-inner">
+                  <div class="thailand-parent">
+                    <div class="thailand">THAILAND</div>
+                    <div class="bangkok-parent">
+                      <h1 class="bangkok1">Bangkok</h1>
+                      <div class="book-economy-class-container3">
+                        <p class="book-economy-class3">
+                          Book economy class - return until 15 Jan 23
+                        </p>
+                        <p class="from-dzd-55000">
+                          <span>from </span>
+                          <b class="dzd-55000">DZD 55.000</b>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="newsletter-section">
+        <img
+          class="newsletter-bg-icon"
+          loading="lazy"
+          alt=""
+          src="./public/newsletter-bg@2x.png"
+        />
+
+        <div class="never-miss-an-offer-parent">
+          <h1 class="never-miss-an">Never miss an offer</h1>
+          <div class="subscribe-and-be">
+            Subscribe and be the first to receive our exclusive offers.
+          </div>
+        </div>
+        <div class="input-fields-wrapper">
+          <div class="input-fields">
+            <div class="input-fields-child"></div>
+            <div class="email-adress-wrapper">
+              <div class="email-adress">Email Adress</div>
+            </div>
+            <div class="line-parent">
+              <div class="frame-child7"></div>
+              <input
+                class="frame-input"
+                placeholder="Prefferd City of Dparture"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="frame-parent10">
+          <div class="rectangle-parent1">
+            <input class="rectangle-input" type="checkbox" />
+
+            <div class="i-would-like-to-get-offers-and-wrapper">
+              <b class="i-would-like-container"
+                >I would like to get offers and new from Air Algerie. I have
+                read and understood the
+                <span class="privacy-notice">Privacy Notice</span>.
+              </b>
+            </div>
+          </div>
+          <button class="secondary-button">
+            <b class="subscribe">Subscribe</b>
+          </button>
+        </div>
+      </footer>
+    </div>
+    <section class="formulario-contato">
+      <h2>Entre em Contato</h2>
+      <form id="formulario-contato">
+        <div class="grupo-formulario">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="grupo-formulario">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="grupo-formulario">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+
+          <button type="submit">Enviar</button>
+
+        </div>
+
+        <footer class="Redes Sociais">
+          <h2>Siga-nos</h2>
+          <div class="links-sociais">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </footer>
+      </form>
+    </section>
+  
+    <script>
+      
+     
+      var modal = document.getElementById('id01');
+      var loginBtn = document.querySelector('.login_button');
+      var closeModal = document.querySelector('.imgcontainer span');
+
+      loginBtn.addEventListener('click', function () {
+        modal.style.display = 'block';
+      });
+
+      closeModal.addEventListener('click', function () {
+        modal.style.display = 'none';
+      });
+
+      window.addEventListener('click', function (event) {
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      });
+
+      
+      function myFunction() {
+        var x = document.getElementById('myTopmenu');
+        if (x.className === 'topmenu') {
+          x.className += ' responsive';
+        } else {
+          x.className = 'topmenu';
+        }
+      }
+
+    
+      let slideIndex = 1;
+      MUDARIMAGENS(slideIndex);
+
+      function plusSlides(n) {
+        MUDARIMAGENS (slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        MUDARIMAGENS (slideIndex = n);
+      }
+
+      function MUDARIMAGENS (n) {
+        let i;
+        const slides = document.getElementsByClassName('mySlides');
+        const dots = document.getElementsByClassName('demo');
+        const captionText = document.getElementById('caption');
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(' active', '');
+        }
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active';
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+      const formulario = document.getElementById('formulario-busca-voo');
+      const resultadosBusca = document.getElementById('resultados-busca');
+
+     formulario.addEventListener('submit', function (event) {
+     event.preventDefault();
+     const aeroportoPartida = formulario.elements['aeroporto-partida'].value;
+     const aeroportoChegada = formulario.elements['aeroporto-chegada'].value;
+     const dataPartida = formulario.elements['data-partida'].value;
+
+   
+     const mensagem = `Voos de ${aeroportoPartida} para ${aeroportoChegada} em ${dataPartida}`;
+     resultadosBusca.innerHTML = `<p>${mensagem}</p>`;
+   });
+   });
+    </script>
+  </body>
+</html>
